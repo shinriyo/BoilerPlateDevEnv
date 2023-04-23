@@ -1,0 +1,30 @@
+# 初期化
+
+```
+docker-compose build
+```
+
+# 起動
+
+```
+docker-compose up -d
+```
+
+# Dockerコンソールに入る
+
+```
+docker exec -it boiler-plate /bin/sh
+```
+
+# ふつうのGo
+
+cd cmd/hello
+go run main.go
+
+
+# Irisサーバーでのコマンド
+
+```
+cd iris
+go run main.go
+```
